@@ -8,6 +8,10 @@ This repository contains sample code for working with [MariaDB](https://mariadb.
 
     **Note:** The demo SQL scripts are meant to be executed step-by-step, not all at once.
 
+## Developer Hub
+
+If you'd like to learn more about MariaDB, including how to use it for your choice of programming language, development ecosystem, modern SQL capabilities, and much more, please be sure to visit the [MariaDB Developer Hub](https://mariadb.com/developers)!
+
 ## Support and Contribution <a name="support-contribution"></a>
 
 Thanks so much for taking a look at this repo! As this repo contains very simple examples, there is plenty of potential for expansion and customization. Please feel free to submit PR's to the project to include your modifications!
