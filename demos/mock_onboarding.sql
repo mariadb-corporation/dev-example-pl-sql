@@ -9,6 +9,8 @@ DELIMITER /
 /* Create a new schema */
 CREATE DATABASE onboarding /
 
+USE onboarding /
+
 CREATE TABLE employees (
     id INT(11) unsigned NOT NULL AUTO_INCREMENT,
     first_name VARCHAR2(200) NOT NULL,
@@ -94,7 +96,7 @@ CREATE OR REPLACE PACKAGE BODY task_helper AS
         WHEN OTHERS THEN
             RETURN 'An error has occurred.';  
     END;
-END;
+END; /
 
 /********************************************************/
 /* Test it out! */
@@ -104,12 +106,12 @@ BEGIN
 END;
 
 CALL task_helper.add_task(1, 'New Task 1-2');
-CALL task_helper.add_task(2, 'New Task 2-2');
+CALL task_helper.add_task(2, 'New Task 2-2'); /
 
-CALL task_helper.complete_task(3);
+CALL task_helper.complete_task(3); /
 
-SELECT id, first_name, last_name, task_helper.incomplete_task_count(id) AS incompleted_tasks FROM employees;
-SELECT task_helper.incomplete_task_count(-1);
+SELECT id, first_name, last_name, task_helper.incomplete_task_count(id) AS incompleted_tasks FROM employees; /
+SELECT task_helper.incomplete_task_count(-1); /
 
 /********************************************************/
 /* Trigger Sample */
@@ -141,5 +143,5 @@ CALL add_employee('John', 'Locke', 'ENG', 3);
 
 SELECT e.first_name, e.last_name, t.description 
 FROM employees e 
-    INNER JOIN tasks t ON e.id = t.emp_id;
-
+    INNER JOIN tasks t ON e.id = t.emp_id; /
+ 

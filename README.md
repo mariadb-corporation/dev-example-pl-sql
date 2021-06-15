@@ -2,9 +2,13 @@
 
 This repository contains sample code for working with [MariaDB](https://mariadb.com) and [PL/SQL](https://en.wikipedia.org/wiki/PL/SQL).
 
+The content provided within this repository was demonstrated live during the MariaDB webinar, [MariaDB and PL/SQL: Combining the Power of SQL and Procedural Statements](https://go.mariadb.com/21Q2-WBN-GLBL-OSSC-PLSQL-Compatibility-2021-03-31_Registration-LP.html).
+
 ## Contents
 
 * [mock_onboarding.sql](demos/mock_onboarding.sql) - A simple mock employee task assignment demo using two tables (employees and tasks) to illustrate how easy it is to get started and use PL/SQL.
+
+* [mariadb_and_plsql.pptx](presentations/mariadb_and_plsql.pptx) - An slide presentation that introduces the fundamentals of using Pl/SQL with MariaDB.
 
     **Note:** The demo SQL scripts are meant to be executed step-by-step, not all at once.
 
