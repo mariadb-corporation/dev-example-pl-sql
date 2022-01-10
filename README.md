@@ -12,15 +12,19 @@ The content provided within this repository was demonstrated live during the Mar
 
     **Note:** The demo SQL scripts are meant to be executed step-by-step, not all at once.
 
-## Developer Hub
-
-If you'd like to learn more about MariaDB, including how to use it for your choice of programming language, development ecosystem, modern SQL capabilities, and much more, please be sure to visit the [MariaDB Developer Hub](https://mariadb.com/developers)!
-
 ## Support and Contribution <a name="support-contribution"></a>
 
-Thanks so much for taking a look at this repo! As this repo contains very simple examples, there is plenty of potential for expansion and customization. Please feel free to submit PR's to the project to include your modifications!
+Please feel free to submit PR's, issues or requests to this project project or projects within the [official MariaDB Corporation GitHub organization](https://github.com/mariadb-corporation).
 
-If you have any questions, comments, or would like to contribute to this or future projects like this please reach out to us directly at [developers@mariadb.com](mailto:developers@mariadb.com) or on [Twitter](https://twitter.com/mariadb).
+If you have any other questions, comments, or looking for more information on MariaDB please check out:
+
+* [MariaDB Developer Hub](https://mariadb.com/developers)
+* [MariaDB Community Slack](https://r.mariadb.com/join-community-slack)
+
+Or reach out to us diretly via:
+
+* [developers@mariadb.com](mailto:developers@mariadb.com)
+* [MariaDB Twitter](https://twitter.com/mariadb)
 
 ## License <a name="license"></a>
 [![License](https://img.shields.io/badge/License-MIT-blue.svg?style=plastic)](https://opensource.org/licenses/MIT)
