@@ -1,5 +1,9 @@
 # MariaDB + PL/SQL
 
+⚠️ **[UNMAINTAINED]** This repository has been moved and is currently maintained [here](https://github.com/mariadb-developers/mariadb-pl-sql-samples). ⚠️
+
+<br />
+
 This repository contains sample code for working with [MariaDB](https://mariadb.com) and [PL/SQL](https://en.wikipedia.org/wiki/PL/SQL).
 
 The content provided within this repository was demonstrated live during the MariaDB webinar, [MariaDB and PL/SQL: Combining the Power of SQL and Procedural Statements](https://go.mariadb.com/21Q2-WBN-GLBL-OSSC-PLSQL-Compatibility-2021-03-31_Registration-LP.html).
